@@ -1,0 +1,7 @@
+fastapi
+keras-facenet
+tensorflow
+mtcnn
+opencv-python
+numpy
+scipy

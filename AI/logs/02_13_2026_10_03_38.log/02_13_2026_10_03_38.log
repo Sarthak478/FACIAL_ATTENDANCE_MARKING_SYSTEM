@@ -1,0 +1,39 @@
+[ 2026-02-13 10:03:39,148 ] 122 keras_facenet.embedding_model - INFO - Loading weights.
+[ 2026-02-13 10:03:39,149 ] 14 keras_facenet.utils - INFO - Looking for C:\Users\pc/.keras-facenet\20180402-114759\20180402-114759-weights.h5
+[ 2026-02-13 10:03:45,214 ] 149 tensorflow - WARNING - From C:\Users\pc\OneDrive\Desktop\Attendance-marking-via-face-recognition\AI\venv\lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+[ 2026-02-13 10:03:46,048 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-02-13 10:03:46,058 ] 97 werkzeug - INFO -  * Debugger PIN: 356-498-145
+[ 2026-02-13 10:05:31,995 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:05:31] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:18:00,658 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:18:00] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:18:41,730 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:18:41] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:18:41,985 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:18:41] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:19:18,864 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:19:18] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:19:56,944 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:19:56] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:26:50,980 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:26:50] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:26:51,243 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:26:51] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:26:55,565 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:26:55] "[35m[1mPOST /train_face HTTP/1.1[0m" 500 -
+[ 2026-02-13 10:27:00,212 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:27:00] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:27:04,450 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:27:04] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:27:09,511 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:27:09] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:27:19,435 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:27:19] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:27:19,747 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:27:19] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:27:24,832 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:27:24] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:27:28,495 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:27:28] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:27:28,672 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:27:28] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:27:29,000 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:27:29] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:27:34,199 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:27:34] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:32:54,968 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:32:54] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:32:55,228 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:32:55] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:33:00,463 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:33:00] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:33:26,184 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:33:26] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:33:26,447 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:33:26] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:33:31,894 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:33:31] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:33:36,087 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:33:36] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:33:40,753 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:33:40] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:33:45,021 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:33:45] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:33:49,699 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:33:49] "POST /train_face HTTP/1.1" 200 -
+[ 2026-02-13 10:38:30,839 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:38:30] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:38:31,085 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:38:31] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:39:27,106 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:39:27] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-13 10:39:27,347 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 10:39:27] "[33mGET / HTTP/1.1[0m" 404 -

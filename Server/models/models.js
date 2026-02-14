@@ -1,79 +1,40 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
-// --- 1. THE USER SCHEMA (Profile + Face Data) ---
-const userSchema = new mongoose.Schema({
-    userId: { 
-        type: String, 
-        unique: true, 
-        required: true 
-    },
-    name: { 
-        type: String, 
-        required: true 
-    },
-    email: { 
-        type: String, 
-        unique: true,
-    },
-    mobileNumber: { 
-        type: String, 
-        unique: true, 
-        required: true 
-    },
-    role: { 
-        type: String, 
-        enum: ["student", "faculty", "admin"], 
-        default: "student" 
-    },
-    
-    // MERGED FACE DATA (The Vector)
-    faceEmbedding: { 
-        type: [Number],  // Stores the 128 or 512 embedding values
-        // required: true, // Recommended: keep required false initially if you save profile first, then embedding
-        default: [],
-        select: true    // Optimizes queries by not fetching this unless asked
-    },
-    
-    status: { 
-        type: String, 
-        enum: ["active", "inactive"], 
-        default: "active" 
-    }
-}, { timestamps: true });
-
-// --- 2. THE ATTENDANCE SCHEMA ---
-const attendanceSchema = new mongoose.Schema({
-    userId: { 
-        type: String, 
-        required: true, 
-        ref: 'User' // Creates a link to the User collection
-    }, 
-    date: { 
-        type: String, 
-        required: true 
-    }, // Format: "YYYY-MM-DD"
-    
-    time: { 
-        type: String, 
-        required: true 
-    }, // Format: "HH:mm:ss"
-    
-    confidence: Number,
-    cameraId: String
+// --- 1. User Schema (Students & Faculty) ---
+const UserSchema = new mongoose.Schema({
+    userId: { type: String, required: true, unique: true },
+    name: { type: String, required: true },
+    email: { type: String, required: true, unique: true },
+    phoneNumber: { type: String, required: true }, 
+    role: { type: String, required: true, enum: ['student', 'faculty', 'admin'] },
+    faceEmbedding: { type: [Number], required: true }, 
+    createdAt: { type: Date, default: Date.now }
 });
 
-// Prevent duplicate attendance for the same user on the same day
-attendanceSchema.index({ userId: 1, date: 1 }, { unique: true });
+// --- 2. Admin Schema (Admins) ---
+const AdminSchema = new mongoose.Schema({
+    adminId: { type: String, required: true, unique: true }, 
+    name: { type: String, required: true },
+    email: { type: String, required: true, unique: true },
+    phoneNumber: { type: String, required: true }, 
+    role: { type: String, default: 'admin' },
+    faceEmbedding: { type: [Number], required: true }, 
+    createdAt: { type: Date, default: Date.now }
+});
 
-// --- MODELS ---
+// --- 3. Attendance Schema (Logs) ---
+const AttendanceSchema = new mongoose.Schema({
+    userId: { type: String, required: true },
+    name: { type: String, required: true },
+    date: { type: String, required: true },
+    time: { type: String, required: true },
+    confidence: { type: Number, required: true },
+    cameraId: { type: String, required: true },
+    role: { type: String } 
+});
 
-// 1. USER MODEL -> FORCED TO 'attendance' COLLECTION
-// The 3rd argument "attendance" tells Mongoose: "Save this in the 'attendance' collection."
-const User = mongoose.model("User", userSchema, "attendance");
+const User = mongoose.model('User', UserSchema);
+const Admin = mongoose.model('Admin', AdminSchema);
+const Attendance = mongoose.model('Attendance', AttendanceSchema,"attendance_logs");
 
-// 2. ATTENDANCE LOGS MODEL -> 'attendance_logs' COLLECTION
-// Since 'attendance' is now used for Users, we save daily logs in a separate collection 
-// to avoid mixing User Profiles with Daily Logs.
-const Attendance = mongoose.model("Attendance", attendanceSchema, "attendance_logs");
-
-module.exports = { User, Attendance };
+module.exports = { User, Admin, Attendance };

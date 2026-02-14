@@ -1,0 +1,10 @@
+[ 2026-02-13 10:40:35,617 ] 122 keras_facenet.embedding_model - INFO - Loading weights.
+[ 2026-02-13 10:40:35,619 ] 14 keras_facenet.utils - INFO - Looking for C:\Users\pc/.keras-facenet\20180402-114759\20180402-114759-weights.h5
+[ 2026-02-13 10:40:43,467 ] 149 tensorflow - WARNING - From C:\Users\pc\OneDrive\Desktop\Attendance-marking-via-face-recognition\AI\venv\lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+[ 2026-02-13 10:40:44,936 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.35.10.235:5000
+[ 2026-02-13 10:40:44,937 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2026-02-13 10:40:44,940 ] 97 werkzeug - INFO -  * Restarting with stat

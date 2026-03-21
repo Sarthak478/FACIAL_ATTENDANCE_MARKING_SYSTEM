@@ -1,7 +1,9 @@
 fastapi
-keras-facenet
+keras-facenet==0.3.2
 tensorflow
-mtcnn
-opencv-python
+mtcnn==1.0.0 
+opencv-python==4.13.0.92
 numpy
 scipy
+flask 
+flask_cors

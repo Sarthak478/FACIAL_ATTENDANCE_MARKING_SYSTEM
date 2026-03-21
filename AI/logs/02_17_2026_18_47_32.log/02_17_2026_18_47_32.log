@@ -1,0 +1,26 @@
+[ 2026-02-17 18:47:32,357 ] 122 keras_facenet.embedding_model - INFO - Loading weights.
+[ 2026-02-17 18:47:32,358 ] 14 keras_facenet.utils - INFO - Looking for C:\Users\pc/.keras-facenet\20180402-114759\20180402-114759-weights.h5
+[ 2026-02-17 18:47:37,280 ] 149 tensorflow - WARNING - From C:\Users\pc\OneDrive\Desktop\Attendance-marking-via-face-recognition\AI\venv\lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+[ 2026-02-17 18:47:38,996 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-02-17 18:47:39,016 ] 97 werkzeug - INFO -  * Debugger PIN: 356-498-145
+[ 2026-02-17 18:47:55,980 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 18:47:55] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 18:47:56,243 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 18:47:56] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 18:48:37,840 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 18:48:37] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 18:48:38,107 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 18:48:38] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 18:49:11,777 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 18:49:11] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 18:49:12,086 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 18:49:12] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 18:57:45,274 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 18:57:45] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 18:57:45,540 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 18:57:45] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 19:07:03,796 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 19:07:03] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 19:07:04,066 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 19:07:04] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 19:19:44,418 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 19:19:44] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 19:19:44,644 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 19:19:44] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 19:20:22,178 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 19:20:22] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 19:20:22,502 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 19:20:22] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 19:20:50,964 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 19:20:50] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 19:20:51,294 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 19:20:51] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 19:22:15,539 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 19:22:15] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 19:22:15,800 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 19:22:15] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 19:25:05,173 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 19:25:05] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-17 19:25:05,436 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Feb/2026 19:25:05] "[33mGET / HTTP/1.1[0m" 404 -

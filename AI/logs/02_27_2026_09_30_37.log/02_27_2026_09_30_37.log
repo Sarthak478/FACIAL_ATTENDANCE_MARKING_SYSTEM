@@ -1,0 +1,8 @@
+[ 2026-02-27 09:30:38,048 ] 122 keras_facenet.embedding_model - INFO - Loading weights.
+[ 2026-02-27 09:30:38,049 ] 14 keras_facenet.utils - INFO - Looking for C:\Users\pc/.keras-facenet\20180402-114759\20180402-114759-weights.h5
+[ 2026-02-27 09:30:43,699 ] 149 tensorflow - WARNING - From C:\Users\pc\OneDrive\Desktop\Attendance-marking-via-face-recognition\AI\venv\lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+[ 2026-02-27 09:30:44,664 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-02-27 09:30:44,672 ] 97 werkzeug - INFO -  * Debugger PIN: 356-498-145
+[ 2026-02-27 09:34:11,100 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 09:34:11] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2026-02-27 09:34:11,353 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2026 09:34:11] "[33mGET / HTTP/1.1[0m" 404 -

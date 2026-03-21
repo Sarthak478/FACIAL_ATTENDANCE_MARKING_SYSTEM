@@ -18,7 +18,7 @@ def train_face():
         
         
         if 'video' not in request.files:
-            print("❌ Error: No 'video' file in request")
+            print("Error: No 'video' file in request")
             return jsonify({"error": "Missing video file"}), 400
 
         video_file = request.files['video']
